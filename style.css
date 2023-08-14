@@ -11,13 +11,39 @@ body {
     background: #b40d1a;
 }
 
+.mute-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    width: 15%;
+}
+
+.unmuted {
+    background-color: #9aeabc; /* Warna latar belakang tombol saat unmute */
+    color: #222; /* Warna teks tombol saat unmute */
+    border: 1px solid #222; /* Border tombol saat unmute */
+}
+
+.muted {
+    background-color: #ff9393; /* Warna latar belakang tombol saat mute */
+    color: #fff; /* Warna teks tombol saat mute */
+    border: 1px solid #222; /* Border tombol saat mute */
+}
+
+
 .app {
     background: #f2ece9;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
+    margin: 70px auto 0;
     border-radius: 10px;
     padding: 30px;
+}
+
+#question {
+    font-size: 28px;
 }
 
 .btn {
@@ -69,6 +95,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: auto;
     padding: 10px;
     height: 100vh;
     background-color: #b40d1a;

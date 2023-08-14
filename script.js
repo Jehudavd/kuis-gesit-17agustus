@@ -35,6 +35,29 @@ fetch("questions.json")
         shuffleArray(questions); 
     });
 
+const muteButton = document.getElementById("mute-btn");
+
+let isAudioMuted = false;
+
+muteButton.addEventListener("click", toggleAudioMute);
+
+function toggleAudioMute() {
+    if (isAudioMuted) {
+        backgroundAudio.play();
+        isAudioMuted = false;
+        muteButton.innerHTML = "Nyala";
+        muteButton.classList.remove("muted");
+        muteButton.classList.add("unmuted");
+    } else {
+        backgroundAudio.pause();
+        isAudioMuted = true;
+        muteButton.innerHTML = "Mati";
+        muteButton.classList.remove("unmuted");
+        muteButton.classList.add("muted");
+    }
+}
+
+
 function startQuiz() {
     currentQuestionIndex = 0;
     score = 0;
