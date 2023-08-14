@@ -72,6 +72,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    width: auto;
     height: 100vh;
     background-color: #b40d1a;
 }
