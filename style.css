@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Handjet', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background: #b40d1a;
+}
+
+.app {
+    background: #f2ece9;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: #b40d1a;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
+
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100vh;
+    background-color: #b40d1a;
+}
+
+.start-screen h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#how-to-play-btn {
+    text-align: center;
+    max-width: 70vh;
+}
+
+#start-btn {
+    text-align: center;
+    max-width: 70vh;
+}
+
+#timer {
+    font-weight: bold;
+    color: #c7141a;
+}
+

@@ -1,0 +1,182 @@
+[
+    {
+        "question": "Apa nama pulau cantik di Indonesia yang kerap dikira sebagai negara oleh turis asing?",
+        "answers": [
+            { "text": "Pulau Madura", "correct": false },
+            { "text": "Pulau Bali", "correct": true },
+            { "text": "Pulau Komodo", "correct": false },
+            { "text": "Pulau Nias", "correct": false }
+        ]
+    },
+    {
+        "question": "Perhiasan apa yang terbuat dari batu dan digemari bapak-bapak?",
+        "answers": [
+            { "text": "Batu Akik", "correct": true },
+            { "text": "Batu Merah", "correct": false },
+            { "text": "Batu Bata", "correct": false },
+            { "text": "Batu Karang", "correct": false }
+        ]
+    },
+    {
+        "question": "Apakah nama kota yang paling padat di Indonesia?",
+        "answers": [
+            { "text": "Surabaya", "correct": false },
+            { "text": "Manado", "correct": false },
+            { "text": "Lampung", "correct": false },
+            { "text": "Jakarta", "correct": true }
+        ]
+    },
+    {
+        "question": "Siapa tokoh kartun Indonesia yang memiliki kepala berbentuk seperti bawang dan sering menjadi maskot acara televisi?",
+        "answers": [
+            { "text": "Si Yanto", "correct": false },
+            { "text": "Si Upin", "correct": false },
+            { "text": "Si Unyil", "correct": true },
+            { "text": "Si Juki", "correct": false }
+        ]
+    },
+    {
+        "question": "Apa makanan khas Indonesia yang berasal dari kota Manado, Sulawesi Utara?",
+        "answers": [
+            { "text": "Tinutuan", "correct": true },
+            { "text": "Jalangkote", "correct": false },
+            { "text": "Ayam Geprek", "correct": false },
+            { "text": "Gohu Ikan", "correct": false }
+        ]
+    },
+    {
+        "question": "Apakah kota besar dengan tingkat kriminalitas tertinggi di Indonesia?",
+        "answers": [
+            { "text": "Gorontalo", "correct": false },
+            { "text": "Aceh", "correct": false },
+            { "text": "Surabaya", "correct": false },
+            { "text": "Medan", "correct": true }
+        ]
+    },
+    {
+        "question": "Apakah genre lagu yang hanya ada di Indonesia?",
+        "answers": [
+            { "text": "Rock", "correct": false },
+            { "text": "Dangdut", "correct": true },
+            { "text": "Jedag Jedug", "correct": false },
+            { "text": "Indie", "correct": false }
+        ]
+    },
+    {
+        "question": "Siapa tokoh pada dongeng Indonesia yang memiliki nama yang sama dengan nama sayur?",
+        "answers": [
+            { "text": "Brokoli Ijo", "correct": false },
+            { "text": "Tomat Merah", "correct": false },
+            { "text": "Timun Mas", "correct": true },
+            { "text": "Bayam Manies", "correct": false }
+        ]
+    },
+    {
+        "question": "Berapa kali Indonesia telah berpindah tempat Ibu Kota Negara sebelum Jakarta?",
+        "answers": [
+            { "text": "Tiga Kali", "correct": true },
+            { "text": "Satu Kali", "correct": false },
+            { "text": "Dua Kali", "correct": false },
+            { "text": "Empat Kali", "correct": false }
+        ]
+    },
+    {
+        "question": "Berapa banyak provinsi yang ada di Indonesia?",
+        "answers": [
+            { "text": "37 Provinsi", "correct": false },
+            { "text": "34 Provinsi", "correct": false },
+            { "text": "35 Provinsi", "correct": false },
+            { "text": "38 Provinsi", "correct": true }
+        ]
+    },
+    {
+        "question": "Apakah nama satelit indonesia yang terbaru?",
+        "answers": [
+            { "text": "Garuda", "correct": false },
+            { "text": "Satria", "correct": true },
+            { "text": "Palapa", "correct": false },
+            { "text": "Cakrawarta", "correct": false }
+        ]
+    },
+    {
+        "question": "Siapakah Presiden ke-empat Republik Indonesia?",
+        "answers": [
+            { "text": "Soeharto", "correct": false },
+            { "text": "Susilo Bambang Yudhoyono", "correct": false },
+            { "text": "Abdurrahman Wahid", "correct": true },
+            { "text": "Bacharuddin Jusuf Habibie", "correct": false }
+        ]
+    },
+    {
+        "question": "Kota di Indonesia yang dijuluki sebagai kota pelajar adalah?",
+        "answers": [
+            { "text": "Solo", "correct":  false},
+            { "text": "Malang", "correct": false },
+            { "text": "Depok", "correct": false },
+            { "text": "Yogyakarta", "correct": true }
+        ]
+    },
+    {
+        "question": "Pulau terbesar Indonesia adalah?",
+        "answers": [
+            { "text": "Kalimantan", "correct": false },
+            { "text": "Papua", "correct": true },
+            { "text": "Sumatera", "correct": false },
+            { "text": "Jawa", "correct": false }
+        ]
+    },
+    {
+        "question": "Pada tanggal 17 Agustus 2023 Indonesia merayakan kemerdekaannya yang ke?",
+        "answers": [
+            { "text": "78 Tahun", "correct": true },
+            { "text": "76 Tahun", "correct": false },
+            { "text": "79 Tahun", "correct": false },
+            { "text": "77 Tahun", "correct": false }
+        ]
+    },
+    {
+        "question": "Dari mana alat musik kolintang berasal?",
+        "answers": [
+            { "text": "Riau", "correct": false },
+            { "text": "Jawa Barat", "correct": false },
+            { "text": "Sulawesi Utara", "correct": true },
+            { "text": "Kalimantan Timur", "correct": false }
+        ]
+    },
+    {
+        "question": "Siapakah pencipta lagu Hari Merdeka?",
+        "answers": [
+            { "text": "Wage Rudolf Soepratman", "correct": false },
+            { "text": "Husein Mutahar", "correct": true },
+            { "text": "Ismail Marzuki", "correct": false },
+            { "text": "Truno Prawit", "correct": false }
+        ]
+    },
+    {
+        "question": "Kepanjangan dari petani adalah?",
+        "answers": [
+            { "text": "Persatuan Tani Nasional Indonesia", "correct": false },
+            { "text": "Perhimpunan Tenaga Kerja Agraris Nasional Indonesia", "correct": false },
+            { "text": "Pemberdayaan Ekonomi Tani dan Nelayan Indonesia", "correct": false },
+            { "text": "Penyangga Tatanan Negara Indonesia", "correct": true }
+        ]
+    },
+    {
+        "question": "Tahun berapa Hari Sumpah Pemuda pertama kali dirayakan?",
+        "answers": [
+            { "text": "1928", "correct": true },
+            { "text": "1998", "correct": false },
+            { "text": "1965", "correct": false },
+            { "text": "1937", "correct": false }
+        ]
+    },
+    {
+        "question": "Siapakah Wakil Presiden ke-tujuh Republik Indonesia?",
+        "answers": [
+            { "text": "Megawati Soekarnoputri", "correct": false },
+            { "text": "Bacharuddin Jusuf Habibie ", "correct": true },
+            { "text": "H. Adam Malik", "correct": false },
+            { "text": "Try Sutrisno", "correct": false }
+        ]
+    }
+]
