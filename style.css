@@ -11,11 +11,15 @@ body {
 
 .app {
     background: #f2ece9;
-    width: 100%;
+    width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
+    margin: 70px auto 0;
     border-radius: 10px;
     padding: 30px;
+}
+
+#question {
+    font-size: 28px;
 }
 
 .btn {
