@@ -5,8 +5,22 @@
     box-sizing: border-box;
 }
 
+.css-selector {
+    background: linear-gradient(270deg, #c7141a, #b40d1a, #f2ece9);
+    background-size: 600% 600%;
+    animation: background-gradient 10s ease infinite;
+}
+
 body {
-    background: #b40d1a;
+    background: linear-gradient(270deg, #c7141a, #b40d1a, #f2ece9);
+    background-size: 600% 600%;
+    animation: background-gradient 10s ease infinite;
+}
+
+    @keyframes background-gradient {
+    0% { background-position: 18% 0%; }
+    50% { background-position: 83% 100%; }
+    100% { background-position: 18% 0%; }
 }
 
 .mute-btn {
@@ -14,8 +28,9 @@ body {
     top: 20px;
     right: 20px;
     z-index: 1000;
-    border-radius: 10px;
-    width: 15%;
+    border-radius: 4px;
+    width: 8vh;
+    font-weight: bold;
 }
 
 .unmuted {
@@ -40,14 +55,10 @@ body {
     padding: 30px;
 }
 
-#question {
-    font-size: 28px;
-}
-
 .btn {
     background: #fff;
     color: #222;
-    font-weight: 500;
+    font-weight: bold;
     width: 100%;
     border: 1px solid #222;
     padding: 10px;
@@ -70,7 +81,7 @@ body {
 #next-btn {
     background: #b40d1a;
     color: #fff;
-    font-weight: 500;
+    font-weight: bold;
     width: 150px;
     border: 0;
     padding: 10px;
@@ -96,11 +107,20 @@ body {
     width: auto;
     padding: 10px;
     height: 100vh;
-    background-color: #b40d1a;
+    background: linear-gradient(270deg, #c7141a, #b40d1a, #f2ece9);
+    background-size: 600% 600%;
+    animation: background-gradient 10s ease infinite;
+}
+
+    @keyframes background-gradient {
+    0% { background-position: 18% 0%; }
+    50% { background-position: 83% 100%; }
+    100% { background-position: 18% 0%; }
 }
 
 .start-screen h1 {
     font-size: 40px;
+    font-weight: bold;
     color: #fff;
     margin-bottom: 20px;
 }
