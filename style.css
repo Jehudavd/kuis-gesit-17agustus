@@ -34,15 +34,15 @@ body {
 }
 
 .unmuted {
-    background-color: #9aeabc; /* Warna latar belakang tombol saat unmute */
-    color: #222; /* Warna teks tombol saat unmute */
-    border: 1px solid #222; /* Border tombol saat unmute */
+    background-color: #9aeabc; 
+    color: #222; 
+    border: 1px solid #222; 
 }
 
 .muted {
-    background-color: #ff9393; /* Warna latar belakang tombol saat mute */
-    color: #fff; /* Warna teks tombol saat mute */
-    border: 1px solid #222; /* Border tombol saat mute */
+    background-color: #ff9393; 
+    color: #fff; 
+    border: 1px solid #222; 
 }
 
 
@@ -50,7 +50,7 @@ body {
     background: #f2ece9;
     width: 90%;
     max-width: 600px;
-    margin: 80px auto 0;
+    margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
 }
@@ -140,3 +140,11 @@ body {
     color: #c7141a;
 }
 
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; 
+    z-index: 1001; 
+}
